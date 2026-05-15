@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dhruv Web Developer</title>
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial, sans-serif;
+    }
+
+    body{
+      background:#0f172a;
+      color:white;
+      line-height:1.6;
+    }
+
+    header{
+      height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+      padding:20px;
+      background:linear-gradient(to right,#0f172a,#1e293b);
+    }
+
+    .hero h1{
+      font-size:55px;
+      margin-bottom:10px;
+      color:#38bdf8;
+    }
+
+    .hero p{
+      font-size:22px;
+      color:#cbd5e1;
+      margin-bottom:20px;
+    }
+
+    .btn{
+      display:inline-block;
+      padding:12px 25px;
+      background:#38bdf8;
+      color:black;
+      text-decoration:none;
+      border-radius:10px;
+      font-weight:bold;
+      transition:0.3s;
+    }
+
+    .btn:hover{
+      background:white;
+    }
+
+    section{
+      padding:70px 10%;
+    }
+
+    h2{
+      font-size:35px;
+      margin-bottom:30px;
+      color:#38bdf8;
+      text-align:center;
+    }
+
+    .services{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+      gap:20px;
+    }
+
+    .card{
+      background:#1e293b;
+      padding:25px;
+      border-radius:15px;
+      text-align:center;
+      transition:0.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-8px);
+      background:#334155;
+    }
+
+    .projects{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:20px;
+    }
+
+    .project-box{
+      background:#1e293b;
+      border-radius:15px;
+      overflow:hidden;
+    }
+
+    .project-box img{
+      width:100%;
+      height:180px;
+      object-fit:cover;
+    }
+
+    .project-box h3{
+      padding:15px;
+      text-align:center;
+    }
+
+    .about{
+      text-align:center;
+      max-width:700px;
+      margin:auto;
+      font-size:18px;
+      color:#cbd5e1;
+    }
+
+    .contact{
+      text-align:center;
+    }
+
+    .contact a{
+      display:inline-block;
+      margin:10px;
+      color:white;
+      text-decoration:none;
+      background:#38bdf8;
+      color:black;
+      padding:12px 20px;
+      border-radius:10px;
+      font-weight:bold;
+    }
+
+    footer{
+      text-align:center;
+      padding:20px;
+      background:#020617;
+      color:#94a3b8;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <!-- HERO SECTION -->
+
+  <header>
+    <div class="hero">
+      <h1>Dhruv Web Developer</h1>
+      <p>I create modern websites for businesses and students.</p>
+
+      <a href="#contact" class="btn">Hire Me</a>
+    </div>
+  </header>
+
+
+  <!-- SERVICES -->
+
+  <section>
+    <h2>My Services</h2>
+
+    <div class="services">
+
+      <div class="card">
+        <h3>Business Website</h3>
+        <p>Modern websites for shops and businesses.</p>
+      </div>
+
+      <div class="card">
+        <h3>Portfolio Website</h3>
+        <p>Personal websites for students and creators.</p>
+      </div>
+
+      <div class="card">
+        <h3>Landing Page</h3>
+        <p>Beautiful responsive landing pages.</p>
+      </div>
+
+      <div class="card">
+        <h3>Restaurant Website</h3>
+        <p>Food menu and restaurant websites.</p>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- PROJECTS -->
+
+  <section>
+    <h2>My Projects</h2>
+
+    <div class="projects">
+
+      <div class="project-box">
+        <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?q=80&w=1200&auto=format&fit=crop" alt="">
+        <h3>Ice Cream Shop Website</h3>
+      </div>
+
+      <div class="project-box">
+        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=1200&auto=format&fit=crop" alt="">
+        <h3>Coding World Website</h3>
+      </div>
+
+      <div class="project-box">
+        <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?q=80&w=1200&auto=format&fit=crop" alt="">
+        <h3>Student Portfolio</h3>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ABOUT -->
+
+  <section>
+    <h2>About Me</h2>
+
+    <div class="about">
+      <p>
+        Hi, I am Dhruv.  
+        I am learning web development and creating modern responsive websites using HTML and CSS.
+      </p>
+      <img src="dada.jpeg" alt="My photo"
+      class="profile" width="250"
+    </div>
+  </section>
+    <!-- CONTACT -->
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+
+    <div class="contact">
+
+      <a href="1136 Simplechhora">Instagram</a>
+<pre>
+      <a href="9580431847">WhatsApp</a>
+<pre>
+      <a href="pariha652@gmail.com">Email</a>
+
+    </div>
+  </section>
+
+
+  <!-- FOOTER -->
+
+  <footer>
+    © 2026 Dhruv Web Developer | All Rights Reserved
+  </footer>
+
+</body>
+</html>
